@@ -25,9 +25,7 @@ export class CadastroComponent {
 
         let headers = new Headers();
         
-        headers.append('Content-Type', 'appication/json');
-
-        //this.http.post('v1/fotos', JSON.stringify(this.foto), { headers : headers })
+        headers.append('Content-Type', 'application/json');
 
         this.http.post('v1/fotos', this.foto, { headers: headers })
 

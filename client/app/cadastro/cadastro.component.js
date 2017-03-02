@@ -22,8 +22,7 @@ var CadastroComponent = (function () {
         event.preventDefault();
         console.log(this.foto);
         var headers = new http_1.Headers();
-        headers.append('Content-Type', 'appication/json');
-        //this.http.post('v1/fotos', JSON.stringify(this.foto), { headers : headers })
+        headers.append('Content-Type', 'application/json');
         this.http.post('v1/fotos', this.foto, { headers: headers })
             .subscribe(function () {
             _this.foto = new foto_component_1.FotoComponent();
