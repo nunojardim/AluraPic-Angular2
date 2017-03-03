@@ -15,7 +15,7 @@ var painel_module_1 = require("./painel/painel.module");
 var http_1 = require("@angular/http");
 var cadastro_component_1 = require("./cadastro/cadastro.component");
 var listagem_component_1 = require("./listagem/listagem.component");
-var app_rout_1 = require("./app.rout");
+var app_router_1 = require("./app.router");
 var forms_1 = require("@angular/forms");
 var AppModule = (function () {
     function AppModule() {
@@ -24,7 +24,7 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule, foto_module_1.FotoModule, http_1.HttpModule, painel_module_1.PainelModule, app_rout_1.routing, forms_1.FormsModule],
+        imports: [platform_browser_1.BrowserModule, foto_module_1.FotoModule, http_1.HttpModule, painel_module_1.PainelModule, app_router_1.routing, forms_1.FormsModule],
         declarations: [app_component_1.AppComponent, cadastro_component_1.CadastroComponent, listagem_component_1.ListagemComponent],
         bootstrap: [app_component_1.AppComponent]
     })

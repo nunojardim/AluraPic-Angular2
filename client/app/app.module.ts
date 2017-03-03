@@ -10,7 +10,7 @@ import {HttpModule} from '@angular/http';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { ListagemComponent } from './listagem/listagem.component';
 
-import { routing } from './app.rout';
+import { routing } from './app.router';
 
 import { FormsModule } from '@angular/forms';
 

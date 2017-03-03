@@ -9,4 +9,4 @@ var appRoutes = [
     { path: '**', component: listagem_component_1.ListagemComponent }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
-//# sourceMappingURL=app.rout.js.map
+//# sourceMappingURL=app.router.js.map
